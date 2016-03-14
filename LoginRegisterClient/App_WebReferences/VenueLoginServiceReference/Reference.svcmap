@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="404d6ba3-ab55-4998-a50c-327fe3c382bf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52845/STLoginService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="STLoginService1.xsd" MetadataType="Schema" ID="5f8b52af-eb4b-495d-9841-2a73cee68482" SourceId="1" SourceUrl="http://localhost:52845/STLoginService.svc?xsd=xsd1" />
+    <MetadataFile FileName="STLoginService.xsd" MetadataType="Schema" ID="ddf44e54-ec14-4700-a65b-86f209c73c67" SourceId="1" SourceUrl="http://localhost:52845/STLoginService.svc?xsd=xsd2" />
+    <MetadataFile FileName="STLoginService3.xsd" MetadataType="Schema" ID="dc744a54-a092-4b95-ad1a-d296ce568a15" SourceId="1" SourceUrl="http://localhost:52845/STLoginService.svc?xsd=xsd3" />
+    <MetadataFile FileName="STLoginService.wsdl" MetadataType="Wsdl" ID="d61f5298-33dd-4e3d-81e5-cc69d5775fc5" SourceId="1" SourceUrl="http://localhost:52845/STLoginService.svc?wsdl" />
+    <MetadataFile FileName="STLoginService.disco" MetadataType="Disco" ID="72d6a082-55c3-413d-bebd-57f0b22a9ecb" SourceId="1" SourceUrl="http://localhost:52845/STLoginService.svc?disco" />
+    <MetadataFile FileName="STLoginService2.xsd" MetadataType="Schema" ID="4f9a9aa2-445d-4182-9c55-5c79f5a12575" SourceId="1" SourceUrl="http://localhost:52845/STLoginService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
